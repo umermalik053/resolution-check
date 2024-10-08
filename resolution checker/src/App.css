@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: crimson;
+    color: #ddd;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    gap: 30px;
+    padding: 30PX;
+    text-align: center;
+  
+}
+.parent h1{
+    font-size: 40px;
+}
+.parent h3{
+    font-size: 20px;
+}
